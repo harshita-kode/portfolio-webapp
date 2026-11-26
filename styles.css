@@ -261,7 +261,7 @@ h1, h2, h3, p { margin: 0; }
    FUN + CONTACT (one sky)
    ============================================================ */
 .sky-end { position: relative; overflow: hidden; background: #2F6FC9; flex: 1 1 auto; display: flex; flex-direction: column; }
-.fun { position: relative; padding: 100px var(--pad) 70px; }
+.fun { position: relative; padding: 150px var(--pad) 70px; }
 .fun .wrap { display: flex; top: -55px; flex-direction: column; gap: 34px; }
 .fun-head { display: flex; flex-wrap: wrap; gap: 2px 18px; align-items: baseline; }
 .fun-title { font-weight: 800; font-size: 54px; letter-spacing: -1.6px; line-height: 1; color: var(--accent); text-shadow: 0 0 22px rgba(255,255,255,.28); }
