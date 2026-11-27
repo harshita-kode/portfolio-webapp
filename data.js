@@ -12,12 +12,12 @@ const SITE = {
 const GH = "https://github.com/harshita-kode/";
 
 const FACTS = [
-  { k: "now",         v: "M.Tech, AI Systems · NUS-ISS, Singapore" },
-  { k: "before",      v: "B.Tech, Computer Science · CGPA 9.54" },
-  { k: "shipped",     v: "Email + OTP modules in a live product, Finsentsis" },
-  { k: "published",   v: "First-author paper at IEEE DLCV 2025" },
-  { k: "in 24 hours", v: "A working prototype at J.P. Morgan Code for Good" },
-  { k: "next",        v: "Credit-bearing internship from March 2027" },
+  { k: "studying",       v: "M.Tech in AI Systems · NUS-ISS, Singapore" },
+  { k: "working across", v: "Deep learning, LLMs and agents, RAG, computer vision and classic ML" },
+  { k: "curious about",  v: "How AI agents plan, use tools and check their own work" },
+  { k: "favourite part", v: "The moment a model turns into something people can click on" },
+  { k: "before this",    v: "B.Tech CS (9.54 CGPA), a full-stack internship and an IEEE paper" },
+  { k: "looking for",    v: "An AI / ML internship in Singapore from March 2027" },
 ];
 
 const SKILLS = [
@@ -34,29 +34,29 @@ const PROJECTS = [
   {
     name: "WaferLens", note: "my favourite",
     blurb: "A wafer-defect analyst. A CNN classifies WM-811K wafer maps, RAG pulls similar past cases, and an LLM writes a cited report.",
-    metric: "89.4% test accuracy · 0.832 macro F1",
+    metric: "89.4% accuracy · 0.83 macro F1 across defect types",
     stack: "PyTorch · LangGraph · ChromaDB · FastAPI",
     repo: GH + "wafer-lens", demo: "", gif: "assets/gifs/wafer-lens.gif",
     tilt: "-1.4deg", delay: "0s",
     peg: "assets/peg1.png", pegW: 67, pegTop: -130, pegML: -40,
   },
   {
-    name: "Echo-Vision", note: "sees & speaks",
-    blurb: "Describes a scene out loud. BLIP-2 turns what the camera sees into plain-language captions, served through FastAPI.",
-    metric: "Vision-language model",
-    stack: "BLIP-2 · PyTorch · FastAPI",
-    repo: GH + "Echo-Vision-Assistant", demo: "", gif: "",
-    tilt: "1.2deg", delay: "-1.8s",
-    peg: "assets/peg2.png", pegW: 74, pegTop: -123, pegML: -30,
-  },
-  {
     name: "Hybrid IDS", note: "group project",
-    blurb: "Catches known and never-seen-before network attacks with an Isolation Forest ensemble, and explains why each alert fired.",
-    metric: "Explainable alerts",
-    stack: "scikit-learn · XGBoost · Isolation Forest",
-    repo: GH + "Hybrid-Network-Intrusion-Detection", demo: "", gif: "",
+    blurb: "XGBoost classifies known attacks; uncertain traffic is checked against a knowledge base and an autoencoder to catch attack types the classifier never trained on. SHAP explains every alert.",
+    metric: "99.95% accuracy on known attacks · 99.8% of unseen attack types flagged",
+    stack: "XGBoost · Autoencoder · KNN · SHAP · CIC-IDS2017",
+    repo: GH + "Hybrid-Network-Intrusion-Detection", demo: "", gif: "assets/gifs/hybrid-IDS.gif",
     tilt: "-1deg", delay: "-3.4s",
     peg: "assets/peg3.png", pegW: 60, pegTop: -118, pegML: -35,
+  },
+  {
+    name: "Echo Vision", note: "personal project",
+    blurb: "A camera assistant for blind and low-vision users. BLIP describes what the camera sees and answers spoken questions about it, served through FastAPI and read aloud in the browser. Decoding strategies benchmarked on COCO.",
+    metric: "CIDEr 1.25 on COCO · beam search +22% over greedy · prompting −11%",
+    stack: "BLIP · PyTorch · Hugging Face · FastAPI · Docker",
+    repo: GH + "Echo-Vision-Assistant", demo: "", gif: "assets/gifs/echo-vision.gif",
+    tilt: "1.5deg", delay: "-1.2s",
+    peg: "assets/peg1.png", pegW: 60, pegTop: -118, pegML: -35,
   },
 ];
 
