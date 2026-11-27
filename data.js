@@ -36,7 +36,7 @@ const PROJECTS = [
     blurb: "A wafer-defect analyst. A CNN classifies WM-811K wafer maps, RAG pulls similar past cases, and an LLM writes a cited report.",
     metric: "89.4% test accuracy · 0.832 macro F1",
     stack: "PyTorch · LangGraph · ChromaDB · FastAPI",
-    repo: GH + "wafer-lens", demo: "", gif: "",
+    repo: GH + "wafer-lens", demo: "", gif: "assets/gifs/wafer-lens.gif",
     tilt: "-1.4deg", delay: "0s",
     peg: "assets/peg1.png", pegW: 67, pegTop: -130, pegML: -40,
   },
@@ -62,7 +62,7 @@ const PROJECTS = [
 
 const MORE = [
   {
-    name: "Adaptive Meal Planner", note: "in progress", tilt: "-.8deg",
+    name: "Adaptive Meal Planner", note: "group project", tilt: "-.8deg",
     repo: "https://github.com/anagha253/Intelligent-Adaptive-Meal-Planner",
     blurb: "Plans meals around nutrition, dietary needs and a real grocery budget, and re-plans as those change. I built the data pipeline that matches recipes to Singapore grocery prices.",
   },
@@ -74,8 +74,8 @@ const MORE = [
 ];
 
 const FUN = [
-  { name: "TXT photobooth",   blurb: "A Tomorrow X Together themed photobooth site", link: "",                  gif: "", bg: "#F9D3EC", tilt: "-3deg" },
-  { name: "Cocktail recipes", blurb: "Search and shake: an EJS recipe app",          link: GH + "Cocktail-Recipe", gif: "", bg: "#FFE7A8", tilt: "2deg" },
-  { name: "URL shortener",    blurb: "Tiny links, Node.js",                          link: GH + "url_shortner",    gif: "", bg: "#CFE6FF", tilt: "-1.5deg" },
-  { name: "NodeBalancer",     blurb: "A load balancer, by hand",                     link: GH + "nodebalancer",    gif: "", bg: "#D8F0C4", tilt: "2.5deg" },
+  { name: "TXT photobooth",   blurb: "A Tomorrow X Together themed photobooth site", link: GH + "perfect-storm-photobooth", gif: "assets/gifs/photobooth.gif", bg: "#F9D3EC", tilt: "-3deg" },
+  { name: "Cocktail recipes", blurb: "Search and shake: an EJS recipe app",          link: GH + "Cocktail-Recipe", gif: "assets/gifs/cocktail.gif", bg: "#FFE7A8", tilt: "2deg" },
+  { name: "Catch the button",     blurb: "It runs from your cursor. Catch it for an oof and a surprise", link: GH + "button_click", gif: "assets/gifs/click-me.gif", bg: "#D8F0C4", tilt: "2.5deg" },
+  { name: "URL shortener",    blurb: "Tiny links, Node.js",                          link: GH + "url_shortner",    gif: "assets/gifs/url-shortener.gif", bg: "#CFE6FF", tilt: "-1.5deg" },
 ];
